@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper it implements."
+title: "obqac: a single-step optimisation-based kinematic controller for legged robots"
+abstract: >-
+  Python and CasADi implementation of a path-tracking controller for legged robots driven
+  through their built-in gait controllers: one four-variable quadratic programme per sample
+  instead of a receding horizon, with velocity and acceleration limits as constraints.
+license: MIT
+type: software
+authors:
+  - family-names: Deniz
+    given-names: Nestor N.
+repository-code: "https://github.com/nahueldeniz/obqac"
+references:
+  - type: article
+    title: "A Single-Step Optimization-Based Kinematic Controller for Real-Time Path Tracking of Legged Robots"
+    authors:
+      - family-names: Deniz
+        given-names: Nestor N.
+      - family-names: Auat Cheein
+        given-names: Fernando A.
+    journal: "IEEE Transactions on Industrial Informatics"
+    volume: 22
+    issue: 2
+    start: 729
+    end: 739
+    year: 2026
+    doi: "10.1109/TII.2025.3609176"

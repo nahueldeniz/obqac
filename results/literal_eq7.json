@@ -1,0 +1,87 @@
+{
+ "args": {
+  "controllers": [
+   "obqac"
+  ],
+  "nc": [
+   20
+  ],
+  "path": "lemniscate",
+  "speed": 0.75,
+  "ts": 0.05,
+  "trials": 5,
+  "seed": 0,
+  "d0": 3.0,
+  "steps": null,
+  "field": false,
+  "delta_e": 1.0,
+  "solver": "qp",
+  "plot": false,
+  "out": "literal_eq7"
+ },
+ "results": {
+  "OBQAC": {
+   "trials": [
+    {
+     "controller": "OBQAC",
+     "effort": 0.05650994991232514,
+     "deviation": 0.16613385059379,
+     "rtf": 0.0015180579439997204,
+     "rtf_max": 0.005290660001264769,
+     "final_error": 3.2428301634945615,
+     "steps": 535
+    },
+    {
+     "controller": "OBQAC",
+     "effort": 0.07440111933806542,
+     "deviation": 0.1867111657327374,
+     "rtf": 0.0015194084859596892,
+     "rtf_max": 0.005812919998788857,
+     "final_error": 5.433252054672853,
+     "steps": 535
+    },
+    {
+     "controller": "OBQAC",
+     "effort": 0.06023227158305256,
+     "deviation": 0.16114626892473202,
+     "rtf": 0.001467050766444109,
+     "rtf_max": 0.002953779999188555,
+     "final_error": 3.6225222844355525,
+     "steps": 535
+    },
+    {
+     "controller": "OBQAC",
+     "effort": 0.07593968018477287,
+     "deviation": 0.17608196367334444,
+     "rtf": 0.0013796918129823964,
+     "rtf_max": 0.003249699998377764,
+     "final_error": 5.9512597078979015,
+     "steps": 535
+    },
+    {
+     "controller": "OBQAC",
+     "effort": 0.05105808695760139,
+     "deviation": 0.09971765849907699,
+     "rtf": 0.0013720726354256277,
+     "rtf_max": 0.003316040001664078,
+     "final_error": 1.3273422637409735,
+     "steps": 535
+    }
+   ],
+   "mean": {
+    "controller": "OBQAC",
+    "trials": 5,
+    "effort": 0.06362822159516349,
+    "effort_std": 0.009877630195796775,
+    "deviation": 0.1579581814847362,
+    "deviation_std": 0.03041108208707745,
+    "rtf": 0.0014512563289623085,
+    "rtf_std": 6.441765875894402e-05,
+    "rtf_max": 0.0041246199998568045,
+    "rtf_max_std": 0.0011832294030244273,
+    "final_error": 3.915441294848369,
+    "final_error_std": 1.6543742012647447
+   }
+  }
+ }
+}
